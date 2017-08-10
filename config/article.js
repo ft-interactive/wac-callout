@@ -22,7 +22,7 @@ export default () => ({ // eslint-disable-line
   },
 
   relatedArticle: {
-    text: 'Go to the guide »',
+    text: '   Go to the guide »',
     url: 'https://www.ft.com/content/935ae668-6b00-11e7-bfeb-33fe0c5b7eaa',
   },
 

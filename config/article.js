@@ -1,30 +1,29 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '$uuid',
+  id: 'e90623fe-7db4-11e7-9108-edda0bcbc928',
 
   // canonical URL of the published page
   // "$url" get filled in by the ./configure script
-  url: '$url',
+  url: 'https://ig.ft.com/career-guide-callout',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Politics and the English Language',
+  headline: 'What would you like to know about getting ahead in your career?',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'Tell editors what the FT\'s career advice guide should cover',
 
   topic: {
-    name: 'Starter Kit',
-    url: '/foo',
+    name: 'Work & Careers',
+    url: 'https://www.ft.com/work-careers',
   },
 
   relatedArticle: {
-    text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+    text: 'Go to the guide »',
+    url: 'https://www.ft.com/content/935ae668-6b00-11e7-bfeb-33fe0c5b7eaa',
   },
 
   mainImage: {
@@ -33,7 +32,7 @@ export default () => ({ // eslint-disable-line
     credit: '',
 
     // You can provide a UUID to an image and it was populate everything else
-    uuid: 'c4bf0be4-7c15-11e4-a7b8-00144feabdc0',
+    uuid: '',
 
     // You can also provide a URL
     // url: 'https://image.webservices.ft.com/v1/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2Fc4bf0be4-7c15-11e4-a7b8-00144feabdc0?source=ig&fit=scale-down&width=700',
@@ -42,15 +41,15 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Author One', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Lilah Raptopoulos', url: 'https://www.ft.com/stream/2e6d3457-c6d2-3d61-8df1-b7c310c432bc' },
+    { name: 'Robin Kwong', url: 'https://www.ft.com/stream/3947e926-da60-335e-b41c-7eb6dd2dd26b'},
   ],
 
   // Appears in the HTML <title>
-  title: '',
+  title: 'Reader callout for FT career advice guide',
 
   // meta data
-  description: '',
+  description: 'A questionnaire for FT readers to suggest topics to cover in the High-flier\'s Guide to Getting Ahead at Work',
 
   /*
   TODO: Select Twitter card type -

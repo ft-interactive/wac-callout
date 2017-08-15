@@ -41,15 +41,14 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Lilah Raptopoulos', url: 'https://www.ft.com/stream/2e6d3457-c6d2-3d61-8df1-b7c310c432bc' },
-    { name: 'Robin Kwong', url: 'https://www.ft.com/stream/3947e926-da60-335e-b41c-7eb6dd2dd26b'},
+    { name: 'FT Reporters'},
   ],
 
   // Appears in the HTML <title>
   title: 'Reader callout for FT career advice guide',
 
   // meta data
-  description: 'A questionnaire for FT readers to suggest topics to cover in the High-flier\'s Guide to Getting Ahead at Work',
+  description: 'A questionnaire for readers to suggest topics to cover in the FT\'s Guide to Getting Ahead at Work',
 
   /*
   TODO: Select Twitter card type -

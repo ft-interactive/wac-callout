@@ -9,7 +9,6 @@
 
 export default () => ({
   relatedContent: [
-    { rows: 1, list: 'list/graphics' },
-    { rows: 1, list: 'thing/d8009323-f898-3207-b543-eab4427b7a77' },
+    { rows: 2, list: 'thing/f814d8f7-d38e-31b8-a51f-3882805288fd' },
   ],
 });
